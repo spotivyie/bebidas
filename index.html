@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Canecos Bar</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#preferidas" class="nav-link">
+                            Bebidas preferidas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#whisky" class="nav-link">
+                            Whisky
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#vodka" class="nav-link">
+                            Vodka
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#gin" class="nav-link">
+                            Gin
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#presentear" class="nav-link">
+                            <i class="bi bi-gift"></i>
+                            Para presentear
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="preferidas">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/324234.webp" alt="bebidas">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/3464668.webp" alt="bebidas2">
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/asd.webp" alt="bebidas3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title">Bebidas preferidas</h2>
+                        <div class="col-md-11 mt-3 mt-md-5">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/jack.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/whisky/johnnieblack.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/jackhonye.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/jack-daniel.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+        <section id="whisky" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                        <h2 class="section-title">Whisky</h2>
+                        <div class="col-md-11 mt-3 mt-md-5">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/whisky/buchanans.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/jackverde.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/whisky/johnnieblue.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/whisky/oldpar.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vodka" class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title">Vodka</h2>
+                        <div class="col-md-11 mt-3 mt-md-5">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/vodka/ciroc.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/vodka/cirocredberry.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/vodka/ketel.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/vodka/smirnoff.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="gin" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                        <h2 class="section-title">Gin</h2>
+                        <div class="col-md-11 mt-3 mt-md-5">
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/gin/gordons.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/gin/tanqueray.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/gin/tanqueraysevilla.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/gin/villa.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="presentear" class="pt-5 pb-5">
+            <div>
+            <div class="container">
+                <div class="row">
+                        <div class="rotulo">
+                            <div>
+                                <h2 class="presentear-title">Presentes inesquecíveis</h2>
+                                <p class="presentear-paragrafo">Presenteie com rótulos personalizáveis <br /> e kits exclusivos</p>
+                            </div>
+                            <img class="image-rotulo" src="images/presentear/sd.webp" class="d-block w-100 rounded" alt="presentear">
+                            <img class="image-rotulo" src="images/presentear/red.webp" class="d-block w-100 rounded" alt="presentear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section>
+            <section class="pt-5 pb-5">
+                <div class="pt-3 pb-3">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="section-title">Para presentear</h2>
+                            <div class="col-md-11 mt-3 mt-md-5">
+                            </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/presentear/bulleit.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/presentear/johnnie.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/presentear/johnnieblue.png" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                            <img src="images/presentear/johnniewalker.webp" class="d-block w-100 rounded" alt="foto do espaço interno do restaurante">
+                            <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h2 class="preco">R$ preço</h2>
+                            <button class="botao">Comprar</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-div">
+                <h2 class="sectiont-title">Bebidas</h2>
+                <ul class="links">
+                    <li class="link">
+                        Whisky
+                    </li>
+                    <li class="link">
+                        Vodka
+                    </li>
+                    <li class="link">
+                        Gin
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-div">
+                <h2 class="sectiont-title">
+                    Acesso rápido</h2>
+                <ul class="links">
+                    <li class="link">
+                        Bebidas preferidas
+                    </li>
+                    <li class="link">
+                        Para presentear
+                    </li>
+                </ul>
+                <p class="direitos">© Canecos Bar - Todos os direitos reservados</p>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
